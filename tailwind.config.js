@@ -1,9 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./{html,js}"],
+  content: ["./src/*.{html,js}"],
   theme: {
     screens:{
-      xs: "360px",
+        'sm': { 'max': '768px'},  // Define your desired breakpoint here
+        'md': { 'min': '769px'},
+        'lg': { 'min': '1024px',
+        
+    }
     },
     extend: {
       colors: {
@@ -23,4 +27,3 @@ module.exports = {
   },
   plugins: [],
 }
-
