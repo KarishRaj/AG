@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vendor Store Front</title>
+    <title>AisleGo Vendor Store Front </title>
     <link rel="stylesheet" href="output.css">
     <link
       rel="stylesheet"
@@ -12,125 +12,119 @@
 </head>
 <body>
     <div
-      class=" w-full bg-white max-w-full flex flex-col items-center justify-start gap-[60px] font-roboto leading-[normal] tracking-[normal] mq750:gap-[30px]"
+      class=" w-full bg-white max-w-full flex flex-col items-center justify-start gap-[60px] font-roboto leading-[normal] tracking-[normal] sm:gap-[30px] "
     >
       <header><!--Please use the current nav bar--></header>
-      <div
-        class="rounded-2xl bg-gray1-200 hidden flex-row items-center justify-start py-2 px-3"
-      >
-        <img
-          class="h-5 w-5 relative object-cover"
-          alt=""
-          src="auto-awesome-motion@2x.png"
-        />
-      </div>
+            
       <main
-        class="w-[1122px] flex flex-col items-start justify-start gap-[15px] max-w-full text-left text-5xl text-gray-800 font-roboto"
+        class="w-[1122px] sm:w-full sm:self-stretch flex flex-col items-start justify-start gap-[15px] max-w-full text-left text-5xl text-gray-800 font-roboto "
       >
-        <section> <!--gallery-->
-          <div 
-            class="self-stretch flex flex-col flex-wrap items-end justify-end gap-2 max-w-full pb-4 text-sm text-gray-500"
+      
+      <section> <!--gallery-->
+        <div 
+          class="flex flex-col items-end justify-end gap-2 pb-2 text-sm text-gray-500 "
+        >
+          <!--gallery grid-->
+          <div
+            class=" relative self-stretch grid grid-cols-2 gap-2 sm:flex sm:w-full sm:gap-0 "
           >
-            <!--gallery grid-->
+            <img
+                class="h-[508px] w-[556px] relative rounded-lg object-cover max-w-full sm:h-1/4 sm:object-fill sm:w-full sm:rounded-none"
+                loading="lazy"
+                alt=""
+                src="/public/rectangle-2@2x.png"
+            />
             <div
-              class=" relative self-stretch grid grid-cols-2 gap-2"
+              class="grid h-[504px] grid-cols-2 gap-2 sm:hidden"
             >
               <img
-                  class="h-[508px] w-[556px] relative rounded-lg object-cover max-w-full"
-                  loading="lazy"
-                  alt=""
-                  src="rectangle-2@2x.png"
+                class="w-[274px] h-[250px] self-stretch flex-1 relative rounded-lg max-w-full overflow-hidden max-h-full object-cover"
+                loading="lazy"
+                alt=""
+                src="/public/rectangle-6@2x.png"
               />
-              <div
-                class="grid h-[504px] grid-cols-2 gap-2"
+              <img
+                class=" w-[274px] h-[250px] self-stretch flex-1 relative rounded-lg max-w-full overflow-hidden max-h-full object-cover"
+                loading="lazy"
+                alt=""
+                src="/public/rectangle-6@2x.png"
+              />
+              <img
+                class=" w-[274px] h-[250px] self-stretch flex-1 relative rounded-lg max-w-full overflow-hidden max-h-full object-cover"
+                loading="lazy"
+                alt=""
+                src="/public/rectangle-6@2x.png"
+              />
+              <img
+                class=" w-[274px] h-[250px] self-stretch flex-1 relative rounded-lg max-w-full overflow-hidden max-h-full object-cover"
+                loading="lazy"
+                alt=""
+                src="/public/rectangle-6@2x.png"
+              />
+            </div>
+            <button
+              class="cursor-pointer absolute bottom-4 right-4  py-2 px-3 bg-gray-200 rounded-2xl flex flex-row items-start justify-start gap-2 z-2"
               >
                 <img
-                  class="w-[274px] h-[250px] self-stretch flex-1 relative rounded-lg max-w-full overflow-hidden max-h-full object-cover"
-                  loading="lazy"
+                  class="h-5 w-5 relative min-h-[20px]"
                   alt=""
-                  src="rectangle-6@2x.png"
+                  src="/public/auto-awesome-motion-1.svg"
                 />
-                <img
-                  class=" w-[274px] h-[250px] self-stretch flex-1 relative rounded-lg max-w-full overflow-hidden max-h-full object-cover"
-                  loading="lazy"
-                  alt=""
-                  src="rectangle-6@2x.png"
-                />
-                <img
-                  class=" w-[274px] h-[250px] self-stretch flex-1 relative rounded-lg max-w-full overflow-hidden max-h-full object-cover"
-                  loading="lazy"
-                  alt=""
-                  src="rectangle-6@2x.png"
-                />
-                <img
-                  class=" w-[274px] h-[250px] self-stretch flex-1 relative rounded-lg max-w-full overflow-hidden max-h-full object-cover"
-                  loading="lazy"
-                  alt=""
-                  src="rectangle-6@2x.png"
-                />
-              </div>
-              <button
-                class="cursor-pointer absolute bottom-4 right-4  py-2 px-3 bg-gray-200 rounded-2xl flex flex-row items-start justify-start gap-2 z-2"
-                >
-                  <img
-                    class="h-5 w-5 relative min-h-[20px]"
-                    alt=""
-                    src="auto-awesome-motion-1.svg"
-                  />
 
+                <div
+                  class="flex flex-col items-start justify-start pt-0.5 px-0 pb-0"
+                >
                   <div
-                    class="flex flex-col items-start justify-start pt-0.5 px-0 pb-0"
+                    class="relative text-sm tracking-[0.1px] font-semibold font-roboto text-gray-600 text-left inline-block"
                   >
-                    <div
-                      class="relative text-sm tracking-[0.1px] font-semibold font-roboto text-gray-600 text-left inline-block"
-                    >
-                      5+
-                    </div>
+                    5+
                   </div>
-                </button>
-            </div>
-            
-            <button
-              class="rounded-2xl flex flex-row items-start justify-end py-2 pr-3 gap-2"
-            >
-                <img
-                  class="h-5 w-5 relative object-cover"
-                  alt=""
-                  src="auto-awesome-motion-2@2x.png"
-                />
-
-                <p
-                  class="flex flex-col items-start justify-start underline font-medium pt-0.5"
-                >
-                    Virtual Tour
-                </p>
+                </div>
             </button>
-               
           </div>
           
-        </section>  
+          <button
+            class="rounded-2xl flex flex-row items-start justify-end py-2 pr-3 gap-2"
+          >
+              <img
+                class="h-5 w-5 relative object-cover"
+                alt=""
+                src="/public/auto-awesome-motion-2@2x.png"
+              />
+
+              <p
+                class="flex flex-col items-start justify-start underline font-medium pt-0.5"
+              >
+                  Virtual Tour
+              </p>
+          </button>
+             
+        </div>
+        
+      </section> 
+         
         
         <section> <!--description section--> 
           <div
-            class="self-stretch flex flex-row items-start justify-start max-w-full mq750:pb-8 mq750:box-border"
+            class="relative self-stretch flex flex-row items-start justify-start max-w-full  sm:px-4"
           >
             <div
-              class="flex-1 flex flex-row items-start justify-start pr-0.5 box-border gap-[86px] max-w-full mq750:gap-[21px] mq1050:flex-wrap mq1150:gap-[43px]"
+              class="flex-1 flex flex-row items-start justify-start pr-0.5 box-border gap-[86px] max-w-full"
             >
                <!--description container--> 
 
               <div
-                class="flex-1 flex flex-col items-start justify-start gap-9 max-w-full mq750:gap-[18px] mq750:min-w-full"
+                class="flex-1 flex flex-col items-start justify-start gap-9 max-w-full sm:gap-6"
               >
                 <div
                   class="self-stretch flex flex-col items-start justify-start"
                 >
                   <div
-                    class="self-stretch flex flex-row items-start justify-between gap-5 mq750:flex-wrap"
+                    class="self-stretch flex flex-row items-start justify-between gap-5 "
                   >
                     <div class="flex flex-col items-start justify-start gap-2">
                       <h2
-                          class="relative text-gray-900 font-medium font-roboto text-2xl mq450:text-lgi"
+                          class="relative text-gray-900 font-medium font-roboto text-2xl"
                         >
                           NYC Elopement Experience
                       </h2>
@@ -144,7 +138,7 @@
                               <img
                                 class="h-[18px] w-[18px] relative min-h-[18px]"
                                 alt=""
-                                src="location-on.svg"
+                                src="/public/location-on.svg"
                               />
 
                               <p class="relative">Hudson Yards, New York</p>
@@ -156,7 +150,7 @@
                               <img
                                 class="h-[18px] w-[18px] relative min-h-[18px]"
                                 alt=""
-                                src="boy.svg"
+                                src="/public/boy.svg"
                               />
 
                               <p class="relative">25 - 100 Guests</p>
@@ -166,7 +160,7 @@
                       </div>
                     </div>
                     <div
-                      class="flex flex-row items-start justify-start py-1 px-0 gap-[26px] text-center text-sm text-gray-500"
+                      class="flex flex-row items-start justify-start py-1 px-0 gap-6 text-center text-sm text-gray-500 sm:hidden"
                     >
                       <button
                         class="flex flex-row items-center justify-center gap-2"
@@ -174,7 +168,7 @@
                         <img
                           class="h-4 w-4 relative min-h-[16px]"
                           alt=""
-                          src="share.svg"
+                          src="/public/share.svg"
                         />
 
                         <div class="relative inline-block">
@@ -182,12 +176,12 @@
                         </div>
                       </button>
                       <button
-                        class="flex flex-row items-start justify-center gap-2"
+                        class="flex flex-row items-center justify-center gap-2"
                       >
                         <img
                           class="h-4 w-4 relative"
                           alt=""
-                          src="favorite.svg"
+                          src="/public/favorite.svg"
                         />
 
                         <div class="relative inline-block">
@@ -199,63 +193,63 @@
                 </div>
                 <!--reviews banner-->
                 <div
-                  class="self-stretch rounded-xl bg-white border-gray-300 border-[1px] border-solid box-border flex flex-row items-center justify-center py-3.5 px-5 max-w-full text-center text-gray-700 mq750:gap-6"
+                  class="sm:hidden self-stretch rounded-xl sm:rounded-lg bg-white border-gray-300 border-[1px] border-solid flex flex-row items-center justify-center py-3.5 px-5 max-w-full sm:px-1 text-center text-gray-700  "
                 >
                   <div
-                    class="w-[468px] flex flex-row items-center justify-end gap-6 max-w-full mq450:flex-wrap"
+                    class="flex flex-row items-center justify-end gap-6 sm:gap-1 sm:justify-between "
                   >
                     <div
-                      class=" flex flex-col items-center justify-start pt-0.5 gap-1.5"
+                      class=" flex flex-col items-center justify-start pt-0.5 gap-1.5 sm:gap-0"
                     >
                       <div
-                        class="self-stretch relative leading-[27px] font-medium text-2xl  mq450:text-lgi mq450:leading-[22px]"
+                        class="self-stretch relative leading-[27px] font-medium text-2xl  sm:text-lg"
                       >
                         4.8
                       </div>
                       <!--rating-->
                       <img
-                        class="self-stretch h-2.5 relative max-w-full overflow-hidden shrink-0"
+                        class="self-stretch h-2.5 sm:h-1.5 relative max-w-full overflow-hidden shrink-0"
                         alt=""
-                        src="group-3.svg"
+                        src="/public/group-3.svg"
                       />
                     </div>
                     <div
-                      class="h-12 relative border-gray-200 border-r-[1px] mq450:w-full mq450:h-px"
+                      class="h-12 relative border-gray-200 border-r-[1px]"
                     ></div>
                     <div
-                      class="flex-1 flex flex-row items-center justify-start min-w-[171px] text-base"
+                      class="flex-1 flex flex-row items-center justify-start sm:justify-between min-w-[171px] sm:max-w-20 text-base sm:text-sm"
                     >
                       <img
                         class="self-stretch w-[46.8px] relative max-h-full object-cover min-h-[54px]"
                         loading="lazy"
                         alt=""
-                        src="wreath@2x.png"
+                        src="/public/wreath@2x.png"
                       />
 
                       <div
-                        class="inline-block relative leading-[17px] z-[1] ml-[-12px]"
+                        class="flex relative leading-[17px] z-[1] ml-[-12px] sm:w-[70px]"
                       >
                         See what others are saying about this vendor
                       </div>
                       <img
                         class="self-stretch w-[47px] relative max-h-full object-cover min-h-[54px] z-[2] ml-[-12px]"
                         alt=""
-                        src="wreath-1@2x.png"
+                        src="/public/wreath-1@2x.png"
                       />
                     </div>
                     <div
-                      class="h-12 relative border-gray-200 border-r-[1px] mq450:w-full mq450:h-px"
+                      class="h-12 relative border-gray-200 border-r-[1px]"
                     ></div>
                     <div
-                      class="flex flex-col items-center justify-start pt-0.5 px-1.5  gap-0.5"
+                      class="flex flex-col items-center justify-start pt-0.5 px-1.5 gap-0.5 sm:gap-0"
                     >
                       <div
-                        class="relative leading-[27px] font-medium text-2xl  inline-block  mq450:text-lgi mq450:leading-[22px]"
+                        class="relative leading-[27px] font-medium text-2xl  inline-block sm:text-lg"
                       >
                         225
                       </div>
                       <div
-                        class="relative text-xs [text-decoration:underline] font-light text-gray-500 inline-block min-w-[44px]"
+                        class="relative text-xs [text-decoration:underline] sm:text-[10px] font-light text-gray-500 inline-block min-w-[44px]"
                       >
                         Reviews
                       </div>
@@ -264,10 +258,10 @@
                 </div>
                 <!--description-->
                 <div
-                  class="self-stretch flex flex-col items-start justify-start gap-9 max-w-full text-base text-gray-600 mq750:gap-[18px]"
+                  class="flex flex-col items-start justify-start gap-9 sm:gap-6 max-w-full text-base text-gray-600 "
                 >
                   <div
-                    class="self-stretch flex flex-col items-start justify-start box-border gap-4 max-w-full "
+                    class="flex flex-col items-start justify-start box-border gap-4  max-w-full sm:px-2"
                   >
                     <div
                       class=" relative leading-normal inline-block max-w-full"
@@ -286,14 +280,14 @@
                   >
                   </div>
                   <div
-                    class="w-[411px] flex flex-col items-start justify-start gap-6 max-w-full shrink-0 text-[18px] text-gray-700"
+                    class="flex flex-col items-start justify-start gap-6 max-w-full shrink-0 text-[18px] text-gray-700"
                   >
                     <h3 class="m-0">Check out this vendor's offerings</h3>
                     <div
-                      class="self-stretch flex flex-col items-start justify-start gap-8 text-sm"
+                      class="flex flex-col items-start justify-start gap-8 text-sm"
                     >
                       <div
-                        class="self-stretch flex flex-row items-start justify-between gap-[120px] mq450:flex-wrap"
+                        class="flex flex-row items-start justify-between gap-[120px] "
                       >
                         <div
                           class="w-[152px] flex flex-col items-start justify-start gap-3"
@@ -305,7 +299,7 @@
                               class="h-5 w-5 relative object-cover"
                               loading="lazy"
                               alt=""
-                              src="image-8@2x.png"
+                              src="/public/image-8@2x.png"
                             />
 
                             <div
@@ -321,23 +315,23 @@
                               class="h-5 w-5 relative object-cover"
                               loading="lazy"
                               alt=""
-                              src="image-8@2x.png"
+                              src="/public/image-8@2x.png"
                             />
 
                             <div
-                              class="flex-1 relative flex items-center"
+                              class="flex-1 relative flex items-center "
                             >
                               Ceremony Space
                             </div>
                           </div>
                           <div
-                            class="self-stretch flex flex-row items-center justify-start gap-4"
+                            class="self-stretch flex flex-row items-center justify-start gap-4 "
                           >
                             <img
                               class="h-5 w-5 relative object-cover"
                               loading="lazy"
                               alt=""
-                              src="image-8@2x.png"
+                              src="/public/image-8@2x.png"
                             />
 
                             <div
@@ -349,7 +343,7 @@
                         </div>
 
                         <div
-                          class="w-[152px] flex flex-col items-start justify-start gap-3"
+                          class="w-[152px] flex flex-col items-start justify-start gap-3 sm:hidden"
                         >
                           <div
                             class="self-stretch flex flex-row items-center justify-start gap-4"
@@ -358,7 +352,7 @@
                               class="h-5 w-5 relative object-cover"
                               loading="lazy"
                               alt=""
-                              src="image-8@2x.png"
+                              src="/public/image-8@2x.png"
                             />
 
                             <div
@@ -374,7 +368,7 @@
                               class="h-5 w-5 relative object-cover"
                               loading="lazy"
                               alt=""
-                              src="image-8@2x.png"
+                              src="/public/image-8@2x.png"
                             />
 
                             <div
@@ -390,7 +384,7 @@
                               class="h-5 w-5 relative object-cover"
                               loading="lazy"
                               alt=""
-                              src="image-8@2x.png"
+                              src="/public/image-8@2x.png"
                             />
 
                             <div
@@ -423,12 +417,12 @@
               <!-- Right side container-->
 
               <div
-                class="w-[386px] xl:hidden flex flex-col items-center justify-start gap-6 min-w-[386px] max-w-full mq750:min-w-full mq1050:flex-1"
+                class="w-[386px] sm:hidden flex flex-col items-center justify-start gap-6 min-w-[386px] max-w-full "
               > 
 
                 <!-- Place Book Event card component-->
                 <form
-                  class="w-[386px] rounded-xl border-gray-300 border-[1px] border-solid box-border flex flex-col items-start justify-start py-6 px-6 gap-6 leading-[normal] tracking-[normal]"
+                  class="w-[386px] rounded-xl border-gray-300 border-[1px] border-solid box-border flex flex-col items-start justify-start py-6 px-6 gap-6 leading-[normal] tracking-[normal] "
                 >
                   <div
                     class="relative text-base font-roboto text-gray-800 text-left inline-block"
@@ -449,10 +443,10 @@
                         </div>
                       </div>
                       <div
-                        class="self-stretch rounded-lg h-12 border-gray-300 border-[1px] border-solid flex flex-row items-center justify-between py-2.5 pl-4 pr-2 "
+                        class="self-stretch rounded-lg h-12 border-gray-300 border-[1px] border-solid flex flex-row items-center justify-between  pl-4 pr-2 "
                       >
                         <input
-                          class="w-[73px] [border:none] [outline:none] font-roboto text-sm bg-[transparent] h-4 relative tracking-[0.5px] text-gray-500 text-left flex items-center p-0"
+                          class="w-[73px] [border:none] [outline:none] font-roboto text-sm bg-[transparent] h-full relative tracking-[0.5px] text-gray-500 text-left flex items-center p-0"
                           placeholder="Add a Date"
                           type="text"
                         />
@@ -460,7 +454,7 @@
                         <img
                           class="h-6 w-6 relative"
                           alt=""
-                          src="calendar-today.svg"
+                          src="/public/calendar-today.svg"
                         />
                       </div>
                     </div>
@@ -475,10 +469,10 @@
                         </div>
                       </div>
                       <div
-                        class="self-stretch rounded-lg h-12 border-gray-300 border-[1px] border-solid flex flex-row items-center justify-between py-3 px-4"
+                        class="self-stretch rounded-lg h-12 border-gray-300 border-[1px] border-solid flex flex-row items-center justify-between  px-4"
                       >
                         <input
-                          class="font-roboto text-sm relative tracking-[0.5px] text-gray-500 text-left flex items-center"
+                          class="font-roboto text-sm relative tracking-[0.5px] w-full h-full text-gray-500 text-left flex items-center"
                           placeholder="Enter number of guests"
                           
                         />
@@ -604,7 +598,7 @@
                   <img
                     class="h-4 w-4 relative object-cover min-h-[16px]"
                     alt=""
-                    src="image-22@2x.png"
+                    src="/public/image-22@2x.png"
                   />
                   <div
                     class="flex flex-row, gap-2" 
@@ -623,7 +617,7 @@
                     class="h-6 w-6 relative overflow-hidden shrink-0"
                     loading="lazy"
                     alt=""
-                    src="flag.svg"
+                    src="/public/flag.svg"
                   />
 
                   <button
@@ -642,36 +636,37 @@
         <section><!--Customize your booking-->
           
           <div
-            class="self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[49px] box-border max-w-full mq450:pb-[21px] mq450:box-border mq1050:pb-8 mq1050:box-border"
+            class="flex-row items-start justify-start pb-12 box-border max-w-full sm:px-4 "
           >
             <div
-              class="flex-1 flex flex-col items-start justify-start gap-9 max-w-full mq750:gap-[18px]"
+              class="flex-1 flex  flex-col items-start justify-start gap-9 max-w-full  "
             > 
               <div
-                class="self-stretch flex flex-col items-start justify-start gap-6 max-w-full mq450:pr-5 mq450:box-border mq750:pr-[94px] mq750:box-border mq1150:pr-[189px] mq1150:box-border"
+                class=" flex flex-col items-start justify-start gap-6 max-w-full container "
               >
                 <h2
-                  class="relative text-2xl font-medium text-gray-800 text-left flex items-center max-w-full mq450:text-lgi"
+                  class="w-full text-2xl font-medium text-gray-800 text-left flex items-center max-w-full md:text-xl"
                 >
                   Customize your booking
                 </h2>
                 
                 <div
-                  class="self-stretch flex flex-col items-start justify-start gap-3 max-w-full"
+                  class="flex flex-col items-start justify-start gap-3 container"
                 >
                   <h3
-                    class="m-0 self-stretch relative text-xl font-normal font-roboto text-gray-800 text-left mq450:text-base"
+                    class="relative text-xl font-normal font-roboto text-gray-800 text-left"
                   >
                     Choose your package
                   </h3>
+                 
                   <div
-                    class="self-stretch flex flex-row flex-wrap items-start justify-start gap-2 max-w-full"
+                    class=" sm:w-full flex flex-row flex-wrap items-start justify-start gap-2"
                   >
                     <div
-                      class="flex-1 rounded-lg border-gray-300 border-[1px] border-solid box-border flex flex-row items-center justify-between py-2.5 pl-[15px] pr-[7px] min-w-[239px] max-w-[368px] gap-0 [row-gap:20px]"
+                      class="rounded-lg h-12 sm:h-10 sm:w-full border-gray-300 border-[1px] border-solid box-border flex flex-row items-center justify-between  pl-4 pr-2"
                     >
                       <input
-                        class="w-80 [border:none] [outline:none] font-roboto text-sm bg-[transparent] h-4 relative tracking-[0.5px] text-gray-5001 text-left flex items-center p-0"
+                        class="w-80 font-roboto text-sm bg-[transparent] h-full relative tracking-[0.5px] text-gray-500 text-left flex items-center p-0"
                         placeholder="Add a Date"
                         type="text"
                       />
@@ -679,14 +674,14 @@
                       <img
                         class="h-6 w-6 relative"
                         alt=""
-                        src="calendar-today.svg"
+                        src="/public/calendar-today.svg"
                       />
                     </div>
                     <div
-                      class="flex-1 rounded-lg border-gray-300 border border-solid box-border flex flex-row items-center justify-between py-3.5 pl-[15px] pr-[7px] min-w-[239px] max-w-[368px] gap-5"
+                      class="rounded-lg h-12 sm:h-10 sm:w-full  border-gray-300 border border-solid box-border flex flex-row items-center justify-between  pl-[15px] pr-[7px]"
                     >
                       <input
-                        class="w-[344px] [border:none] [outline:none] font-roboto text-sm bg-[transparent] h-4 relative tracking-[0.5px] text-gray-5001 text-left flex items-center max-w-full p-0"
+                        class="w-80 font-roboto text-sm bg-[transparent] h-full relative tracking-[0.5px] text-gray-500 text-left flex items-center max-w-full p-0"
                         placeholder="Enter number of guests"
                         type="text"
                       />
@@ -697,24 +692,25 @@
             
               <!--package section starts-->
               <div
-                class="self-stretch flex flex-col items-start justify-start pt-0 px-0 gap-9 max-w-full mq450:pb-[21px] mq450:box-border mq1050:pb-8 mq1050:box-border"
+                class="flex flex-col items-start justify-start pt-0 px-0 gap-9 max-w-full sm:w-full sm:items-start "
               >      
                 <!--package grid section-->
                 <div
-                class="self-stretch grid flex-row items-center justify-start gap-2 max-w-full grid-cols-[repeat(3,_minmax(368px,_1fr))] mq750:grid-cols-[minmax(276px,_1fr)] mq1050:justify-center mq1050:grid-cols-[repeat(2,_minmax(276px,_478px))]"
+                class="grid flex-row items-center justify-start gap-2 max-w-full grid-cols-[repeat(3,_minmax(368px,_1fr))] sm:max-w-full  sm:w-full sm:flex sm:flex-col sm:gap-4 sm:justify-center sm:items-center "
                 > 
                   <!--insert Packages_Card.html-->
+                  
                   <div
-                    class="w-[368px] rounded-3xl border-gray-200 border-[1px] border-solid box-border max-w-full flex flex-col contents-center items-center justify-center pb-3.5 gap-8 leading-[normal] tracking-[normal]"
+                    class="flex w-[368px]  sm:w-full rounded-3xl border-gray-200 border-[1px] border-solid box-border flex-col contents-center items-center justify-center pb-3.5 gap-8 leading-[normal] tracking-[normal]"
                   >
                     <div
                       class="self-stretch flex flex-col items-start justify-start relative gap-4"
                     >
                       <img
-                        class="self-stretch relative rounded-t-2xl rounded-b-none max-w-full overflow-hidden max-h-60 object-cover"
+                        class="self-stretch relative rounded-t-2xl rounded-b-none max-w-full overflow-hidden max-h-60 object-cover "
                         loading="lazy"
                         alt=""
-                        src="image-1@2x.png"
+                        src="/public/image-1@2x.png"
                       />
                     </div>
                     <div
@@ -736,7 +732,7 @@
                           $7,300
                         </div>
                         <div
-                          class="flex flex-row items-end justify-end pt-4 px-0 pb-0.5 text-sm text-gray-500"
+                          class="flex flex-row items-end justify-end pt-4 pb-0.5 text-sm text-gray-500"
                         >
                           <div class="relative tracking-[0.1px] inline-block whitespace-nowrap">
                             total
@@ -747,25 +743,25 @@
                         class="self-stretch flex flex-col items-start justify-start gap-3"
                       >
                         <div
-                          class="self-stretch border-gray-200 border-t-[1px] border-solid flex flex-col items-start justify-start pt-1.5 pb-2 pl-0 pr-[135px] gap-2"
+                          class="self-stretch border-gray-200 border-t-[1px] border-solid flex flex-col items-start justify-start pt-1.5 pb-2 gap-2"
                         >
                           <div
-                            class="text-sm text-gray-500 relative tracking-[0.1px] text-[inherit] inline-block min-w-[54px]"
+                            class="text-sm text-gray-500 relative tracking-[0.1px] text-[inherit] inline-block"
                             >Services</div
                           >
                           <div
-                            class="flex flex-col items-start justify-start gap-2 text-gray-800"
+                            class="flex flex-col text-sm items-start justify-start gap-2 text-gray-800"
                           >
                             <div class="flex flex-row items-center justify-center gap-1">
                               <img
                                 class="h-4 w-4 relative"
                                 loading="lazy"
                                 alt=""
-                                src="check.svg"
+                                src="/public/check.svg"
                               />
 
                               <div
-                                class="relative tracking-[0.1px] inline-block min-w-[18px]"
+                                class="relative tracking-[0.1px] inline-block "
                               >
                                 DJ <!--Package Summary Details-->
                               </div>
@@ -775,19 +771,47 @@
                                 class="h-4 w-4 relative min-h-[16px]"
                                 loading="lazy"
                                 alt=""
-                                src="check.svg"
+                                src="/public/check.svg"
                               />
 
                               <div
-                                class="relative tracking-[0.1px] inline-block min-w-[73px]"
+                                class="relative tracking-[0.1px] inline-block "
                               >
                                 Booth Light
+                              </div>
+                            </div>
+                            <div class="flex flex-row items-center justify-center gap-1">
+                              <img
+                                class="h-4 w-4 relative"
+                                loading="lazy"
+                                alt=""
+                                src="/public/check.svg"
+                              />
+
+                              <div
+                                class="relative tracking-[0.1px] inline-block "
+                              >
+                                Music <!--Package Summary Details-->
+                              </div>
+                            </div>
+                            <div class="flex flex-row items-center justify-center gap-1">
+                              <img
+                                class="h-4 w-4 relative"
+                                loading="lazy"
+                                alt=""
+                                src="/public/check.svg"
+                              />
+
+                              <div
+                                class="relative tracking-[0.1px] inline-block "
+                              >
+                                Food <!--Package Summary Details-->
                               </div>
                             </div>
                           </div>
                         </div>
                         <a
-                          class="[text-decoration:underline] relative tracking-[0.1px] text-gray-800 inline-block"
+                          class=" text-sm [text-decoration:underline] relative tracking-[0.1px] text-gray-800 inline-block"
                           >View more</a
                         >
                       </div>
@@ -795,7 +819,7 @@
                     </div>
                     
                     <button
-                        class="mx-4 relative cursor-pointer px-4 w-[336px] self-stretch  rounded-[20px] bg-mariner-100 flex flex-col items-center justify-center min-h-[36px]"
+                        class="mx-4 relative cursor-pointer px-4 w-[336px] sm:w-11/12 self-stretch  rounded-[20px] bg-mariner-100 flex flex-col items-center justify-center min-h-[36px]"
                       >
                         <p
                           class="relative text-base tracking-[0.1px] leading-[20px] font-roboto font-normal text-gray-800 text-center"
@@ -805,16 +829,16 @@
                     </button>
                   </div>
                   <div
-                    class="w-[368px] rounded-3xl border-gray-200 border-[1px] border-solid box-border max-w-full flex flex-col contents-center items-center justify-center pb-3.5 gap-8 leading-[normal] tracking-[normal]"
+                    class="flex w-[368px]  sm:w-full rounded-3xl border-gray-200 border-[1px] border-solid box-border flex-col contents-center items-center justify-center pb-3.5 gap-8 leading-[normal] tracking-[normal]"
                   >
                     <div
                       class="self-stretch flex flex-col items-start justify-start relative gap-4"
                     >
                       <img
-                        class="self-stretch relative rounded-t-2xl rounded-b-none max-w-full overflow-hidden max-h-60 object-cover"
+                        class="self-stretch relative rounded-t-2xl rounded-b-none max-w-full overflow-hidden max-h-60 object-cover "
                         loading="lazy"
                         alt=""
-                        src="image-1@2x.png"
+                        src="/public/image-1@2x.png"
                       />
                     </div>
                     <div
@@ -836,7 +860,7 @@
                           $7,300
                         </div>
                         <div
-                          class="flex flex-row items-end justify-end pt-4 px-0 pb-0.5 text-sm text-gray-500"
+                          class="flex flex-row items-end justify-end pt-4 pb-0.5 text-sm text-gray-500"
                         >
                           <div class="relative tracking-[0.1px] inline-block whitespace-nowrap">
                             total
@@ -847,25 +871,25 @@
                         class="self-stretch flex flex-col items-start justify-start gap-3"
                       >
                         <div
-                          class="self-stretch border-gray-200 border-t-[1px] border-solid flex flex-col items-start justify-start pt-1.5 pb-2 pl-0 pr-[135px] gap-2"
+                          class="self-stretch border-gray-200 border-t-[1px] border-solid flex flex-col items-start justify-start pt-1.5 pb-2 gap-2"
                         >
                           <div
-                            class="text-sm text-gray-500 relative tracking-[0.1px] text-[inherit] inline-block min-w-[54px]"
+                            class="text-sm text-gray-500 relative tracking-[0.1px] text-[inherit] inline-block"
                             >Services</div
                           >
                           <div
-                            class="flex flex-col items-start justify-start gap-2 text-gray-800"
+                            class="flex flex-col text-sm items-start justify-start gap-2 text-gray-800"
                           >
                             <div class="flex flex-row items-center justify-center gap-1">
                               <img
                                 class="h-4 w-4 relative"
                                 loading="lazy"
                                 alt=""
-                                src="check.svg"
+                                src="/public/check.svg"
                               />
 
                               <div
-                                class="relative tracking-[0.1px] inline-block min-w-[18px]"
+                                class="relative tracking-[0.1px] inline-block "
                               >
                                 DJ <!--Package Summary Details-->
                               </div>
@@ -875,19 +899,47 @@
                                 class="h-4 w-4 relative min-h-[16px]"
                                 loading="lazy"
                                 alt=""
-                                src="check.svg"
+                                src="/public/check.svg"
                               />
 
                               <div
-                                class="relative tracking-[0.1px] inline-block min-w-[73px]"
+                                class="relative tracking-[0.1px] inline-block "
                               >
                                 Booth Light
+                              </div>
+                            </div>
+                            <div class="flex flex-row items-center justify-center gap-1">
+                              <img
+                                class="h-4 w-4 relative"
+                                loading="lazy"
+                                alt=""
+                                src="/public/check.svg"
+                              />
+
+                              <div
+                                class="relative tracking-[0.1px] inline-block "
+                              >
+                                Music <!--Package Summary Details-->
+                              </div>
+                            </div>
+                            <div class="flex flex-row items-center justify-center gap-1">
+                              <img
+                                class="h-4 w-4 relative"
+                                loading="lazy"
+                                alt=""
+                                src="/public/check.svg"
+                              />
+
+                              <div
+                                class="relative tracking-[0.1px] inline-block "
+                              >
+                                Food <!--Package Summary Details-->
                               </div>
                             </div>
                           </div>
                         </div>
                         <a
-                          class="[text-decoration:underline] relative tracking-[0.1px] text-gray-800 inline-block"
+                          class=" text-sm [text-decoration:underline] relative tracking-[0.1px] text-gray-800 inline-block"
                           >View more</a
                         >
                       </div>
@@ -895,7 +947,7 @@
                     </div>
                     
                     <button
-                        class="mx-4 relative cursor-pointer px-4 w-[336px] self-stretch  rounded-[20px] bg-mariner-100 flex flex-col items-center justify-center min-h-[36px]"
+                        class="mx-4 relative cursor-pointer px-4 w-[336px] sm:w-11/12 self-stretch  rounded-[20px] bg-mariner-100 flex flex-col items-center justify-center min-h-[36px]"
                       >
                         <p
                           class="relative text-base tracking-[0.1px] leading-[20px] font-roboto font-normal text-gray-800 text-center"
@@ -905,16 +957,16 @@
                     </button>
                   </div>
                   <div
-                    class="w-[368px] rounded-3xl border-gray-200 border-[1px] border-solid box-border max-w-full flex flex-col contents-center items-center justify-center pb-3.5 gap-8 leading-[normal] tracking-[normal]"
+                    class="flex w-[368px]  sm:w-full rounded-3xl border-gray-200 border-[1px] border-solid box-border flex-col contents-center items-center justify-center pb-3.5 gap-8 leading-[normal] tracking-[normal]"
                   >
                     <div
                       class="self-stretch flex flex-col items-start justify-start relative gap-4"
                     >
                       <img
-                        class="self-stretch relative rounded-t-2xl rounded-b-none max-w-full overflow-hidden max-h-60 object-cover"
+                        class="self-stretch relative rounded-t-2xl rounded-b-none max-w-full overflow-hidden max-h-60 object-cover "
                         loading="lazy"
                         alt=""
-                        src="image-1@2x.png"
+                        src="/public/image-1@2x.png"
                       />
                     </div>
                     <div
@@ -936,7 +988,7 @@
                           $7,300
                         </div>
                         <div
-                          class="flex flex-row items-end justify-end pt-4 px-0 pb-0.5 text-sm text-gray-500"
+                          class="flex flex-row items-end justify-end pt-4 pb-0.5 text-sm text-gray-500"
                         >
                           <div class="relative tracking-[0.1px] inline-block whitespace-nowrap">
                             total
@@ -947,25 +999,25 @@
                         class="self-stretch flex flex-col items-start justify-start gap-3"
                       >
                         <div
-                          class="self-stretch border-gray-200 border-t-[1px] border-solid flex flex-col items-start justify-start pt-1.5 pb-2 pl-0 pr-[135px] gap-2"
+                          class="self-stretch border-gray-200 border-t-[1px] border-solid flex flex-col items-start justify-start pt-1.5 pb-2 gap-2"
                         >
                           <div
-                            class="text-sm text-gray-500 relative tracking-[0.1px] text-[inherit] inline-block min-w-[54px]"
+                            class="text-sm text-gray-500 relative tracking-[0.1px] text-[inherit] inline-block"
                             >Services</div
                           >
                           <div
-                            class="flex flex-col items-start justify-start gap-2 text-gray-800"
+                            class="flex flex-col text-sm items-start justify-start gap-2 text-gray-800"
                           >
                             <div class="flex flex-row items-center justify-center gap-1">
                               <img
                                 class="h-4 w-4 relative"
                                 loading="lazy"
                                 alt=""
-                                src="check.svg"
+                                src="/public/check.svg"
                               />
 
                               <div
-                                class="relative tracking-[0.1px] inline-block min-w-[18px]"
+                                class="relative tracking-[0.1px] inline-block "
                               >
                                 DJ <!--Package Summary Details-->
                               </div>
@@ -975,19 +1027,47 @@
                                 class="h-4 w-4 relative min-h-[16px]"
                                 loading="lazy"
                                 alt=""
-                                src="check.svg"
+                                src="/public/check.svg"
                               />
 
                               <div
-                                class="relative tracking-[0.1px] inline-block min-w-[73px]"
+                                class="relative tracking-[0.1px] inline-block "
                               >
                                 Booth Light
+                              </div>
+                            </div>
+                            <div class="flex flex-row items-center justify-center gap-1">
+                              <img
+                                class="h-4 w-4 relative"
+                                loading="lazy"
+                                alt=""
+                                src="/public/check.svg"
+                              />
+
+                              <div
+                                class="relative tracking-[0.1px] inline-block "
+                              >
+                                Music <!--Package Summary Details-->
+                              </div>
+                            </div>
+                            <div class="flex flex-row items-center justify-center gap-1">
+                              <img
+                                class="h-4 w-4 relative"
+                                loading="lazy"
+                                alt=""
+                                src="/public/check.svg"
+                              />
+
+                              <div
+                                class="relative tracking-[0.1px] inline-block "
+                              >
+                                Food <!--Package Summary Details-->
                               </div>
                             </div>
                           </div>
                         </div>
                         <a
-                          class="[text-decoration:underline] relative tracking-[0.1px] text-gray-800 inline-block"
+                          class=" text-sm [text-decoration:underline] relative tracking-[0.1px] text-gray-800 inline-block"
                           >View more</a
                         >
                       </div>
@@ -995,7 +1075,7 @@
                     </div>
                     
                     <button
-                        class="mx-4 relative cursor-pointer px-4 w-[336px] self-stretch  rounded-[20px] bg-mariner-100 flex flex-col items-center justify-center min-h-[36px]"
+                        class="mx-4 relative cursor-pointer px-4 w-[336px] sm:w-11/12 self-stretch  rounded-[20px] bg-mariner-100 flex flex-col items-center justify-center min-h-[36px]"
                       >
                         <p
                           class="relative text-base tracking-[0.1px] leading-[20px] font-roboto font-normal text-gray-800 text-center"
@@ -1004,6 +1084,7 @@
                         </p>
                     </button>
                   </div>
+                  
                 </div>
                 <!--package grid ends-->
                 <button
@@ -1023,188 +1104,189 @@
           
         
           <!--additional services section-->
-        <section>
-          
+        
+
+        <section
+          class="self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-12 box-border max-w-full text-left text-xl text-gray-800 font-roboto sm:px-6 sm:pd-0"
+        >
+          <div
+            class="flex-1 flex flex-col items-start justify-center gap-3 max-w-full shrink-0"
+          >
+            <h3
+              class="m-0 self-stretch relative text-inherit font-normal font-[inherit] sm:text-base sm:hidden"
+            >
+              Choose your services
+            </h3>
             <div
-              class="self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[49px] box-border max-w-full text-xl mq750:pb-8 mq750:box-border"
+              class="self-stretch flex flex-col items-center sm:items-start justify-start gap-10 sm:gap-6  max-w-full text-base text-gray-500 font-inter "
             >
               <div
-                class="flex-1 flex flex-col items-start justify-start gap-3 max-w-full"
+                class="self-stretch bg-white border-gray-200 border-b-[1px] border-solid flex flex-col items-start justify-start"
               >
-                <h3
-                  class="m-0 self-stretch relative text-inherit font-normal font-[inherit] mq450:text-base"
-                >
-                  Choose your services
-                </h3>
                 <div
-                  class="self-stretch flex flex-col items-start justify-start gap-10 max-w-full mq750:gap-5"
+                  class="self-stretch no-scrollbar overflow-x-auto flex flex-row items-center justify-start py-0 pl-0 pr-[182px] gap-1 sm:pr-5 sm:box-border "
                 >
-                  
-                    <!--services navbar start-->
-                    <div
-                      class="self-stretch overflow-x-auto bg-white border-gray-200 border-b-[1px] border-solid  flex flex-row items-center justify-start text-base text-gray-500 gap-1 mq450:pr-5 mq450:box-border mq750:pr-[45px] mq750:box-border mq1150:pr-[91px] mq1150:box-border"
-                    > 
-                      <button
-                        class="border-gray-800 border-b-[2px] border-solid flex items-center justify-start py-4 px-3 text-gray-800"
-                      > <!--the above stlying is when tab is selected-->
-                        <p
-                          class="relative font-medium inline-block "
-                        >
-                          Venue
-                        </p>
-                      </button>
-                      <button
-                        class="flex items-center justify-center py-4 px-3"
-                      >
-                        <p
-                          class="relative inline-block "
-                        >
-                          Catering
-                        </p>
-                      </button>              
-                      <button
-                        class="flex items-center justify-center py-4 px-3"
-                      >
-                        <p
-                          class="relative inline-block "
-                        >
-                          Decor
-                        </p>
-                      </button>  
-                      <button
-                        class="flex items-center justify-center py-4 px-3"
-                      >
-                        <p
-                          class="relative inline-block "
-                        >
-                          Entertainment
-                        </p>
-                      </button>  
-                      <button
-                        class="flex items-center justify-center py-4 px-3"
-                      >
-                        <p
-                          class="relative inline-block "
-                        >
-                          Photography
-                        </p>
-                      </button>  
-                      <button
-                        class="flex items-center justify-center py-4 px-3"
-                      >
-                        <p
-                          class="relative inline-block "
-                        >
-                          Videography
-                        </p>
-                      </button>  
-                      <button
-                        class="flex items-center justify-center py-4 px-3"
-                      >
-                        <p
-                          class="relative inline-block "
-                        >
-                          Transportation
-                        </p>
-                      </button>  
-                      <button
-                        class="flex items-center justify-center py-4 px-3"
-                      >
-                        <p
-                          class="relative inline-block "
-                        >
-                          Additional Services
-                        </p>
-                      </button>                   
-                    </div><!--services navbar ends-->
-
-                  
                   <div
-                    class="self-stretch flex flex-col items-start justify-start gap-9 max-w-full text-gray-700 font-roboto mq750:gap-[18px]"
+                    class="border-gray-800 border-b-[2px] border-solid flex flex-row items-center justify-start pt-4 px-3 pb-[13px] text-gray-800"
+                  >
+                    <div
+                      class="relative font-medium inline-block min-w-[51px] whitespace-nowrap"
+                    >
+                      Venue
+                    </div>
+                  </div>
+                  <div
+                    class="flex flex-row items-center justify-center py-4 px-3"
+                  >
+                    <div
+                      class="relative inline-block min-w-[65px] whitespace-nowrap"
+                    >
+                      Catering
+                    </div>
+                  </div>
+                  <div
+                    class="flex flex-row items-center justify-center py-4 px-3"
+                  >
+                    <div
+                      class="relative inline-block min-w-[46px] whitespace-nowrap"
+                    >
+                      Decor
+                    </div>
+                  </div>
+                  <div
+                    class="flex flex-row items-center justify-center py-4 px-3"
+                  >
+                    <div
+                      class="relative inline-block min-w-[107px] whitespace-nowrap"
+                    >
+                      Entertainment
+                    </div>
+                  </div>
+                  <div
+                    class="flex flex-row items-center justify-center py-4 px-3"
+                  >
+                    <div
+                      class="relative inline-block min-w-[97px] whitespace-nowrap"
+                    >
+                      Photography
+                    </div>
+                  </div>
+                  <div
+                    class="flex flex-row items-center justify-center py-4 px-[11px]"
+                  >
+                    <div
+                      class="relative inline-block min-w-[97px] whitespace-nowrap"
+                    >
+                      Videography
+                    </div>
+                  </div>
+                  <div
+                    class="flex flex-row items-center justify-center py-4 px-3"
+                  >
+                    <div
+                      class="relative inline-block min-w-[112px] whitespace-nowrap"
+                    >
+                      Transportation
+                    </div>
+                  </div>
+                  <div
+                    class="flex flex-row items-center justify-center py-4 px-3"
+                  >
+                    <div class="relative whitespace-nowrap">
+                      Additional Services
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                    class="flex  flex-col items-start justify-start gap-9 max-w-full text-gray-700 font-roboto sm:gap-4 "
                   > 
                     <!--services grid starts-->
                     <div
-                      class="self-stretch grid flex-row items-center justify-start gap-5 max-w-full grid-cols-[repeat(3,_minmax(270px,_1fr))] mq750:grid-cols-[minmax(270px,_1fr)] mq1050:justify-center mq1050:grid-cols-[repeat(2,_minmax(270px,_468px))]"
+                      class="self-stretch grid flex-row items-center justify-start gap-5 sm:gap-0 max-w-full grid-cols-[repeat(3,_minmax(270px,_1fr))] sm:grid-cols-[minmax(270px,_1fr)] "
                     >
                       <!--example service component that repeats in multiples of 3 -->
                       <div
-                        class="w-[360px] flex flex-col items-center justify-start gap-4 leading-[normal] tracking-[normal] text-left text-base text-gray-700 font-roboto"
+                        class="w-[360px] sm:w-full flex flex-col justify-start gap-4 leading-[normal] tracking-[normal] text-left text-base text-gray-700 font-roboto sm:flex-row items-center sm:items-start sm:gap-3 sm:px-2 sm:py-3 sm:border-b-[0.5px]  sm:border-b-gray-200"
                       >
                         <img
-                          class="self-stretch relative rounded-2xl max-w-full overflow-hidden h-[360px] object-cover"
+                          class="self-stretch relative rounded-2xl sm:rounded-lg max-w-full overflow-hidden h-[360px] sm:h-[108px] object-cover"
                           alt=""
-                          src="rectangle-9@2x.png"
+                          src="/public/rectangle-9@2x.png"
                         />
                   
                         <div
-                          class="self-stretch flex flex-row items-start justify-between pr-1 gap-5"
+                          class="self-stretch flex flex-row sm:flex-col items-start justify-between pr-1 gap-5 "
                         > 
-                          <div class="flex flex-col items-start justify-start gap-2">
+                          <div class="flex flex-col items-start justify-start gap-2 sm:gap-1 sm:pl-1 sm:py-2">
                             <div class="relative inline-block">Sparklers</div>
                             <div class="relative text-gray-500 inline-block">
                               $135/ hour
                             </div>
                           </div>
                           <img
-                            class="h-[30px] w-[30px] relative"
+                            class="h-[30px] w-[30px] sm:h-7 sm:w-7 relative"
                             loading="lazy"
                             alt=""
-                            src="add-cta.svg"
+                            src="/public/add-cta.svg"
                           />
                         </div>
                       </div>
                       <div
-                        class="w-[360px] flex flex-col items-center justify-start gap-4 leading-[normal] tracking-[normal] text-left text-base text-gray-700 font-roboto"
+                        class="w-[360px] sm:w-full flex flex-col justify-start gap-4 leading-[normal] tracking-[normal] text-left text-base text-gray-700 font-roboto sm:flex-row items-center sm:items-start sm:gap-3 sm:px-2 sm:py-3 sm:border-b-[0.5px]  sm:border-b-gray-200"
                       >
                         <img
-                          class="self-stretch relative rounded-2xl max-w-full overflow-hidden h-[360px] object-cover"
+                          class="self-stretch relative rounded-2xl sm:rounded-lg  max-w-full overflow-hidden h-[360px] sm:h-[108px] object-cover"
                           alt=""
-                          src="rectangle-9@2x.png"
+                          src="/public/rectangle-9@2x.png"
                         />
                   
                         <div
-                          class="self-stretch flex flex-row items-start justify-between pr-1 gap-5"
+                          class="self-stretch flex flex-row sm:flex-col items-start justify-between pr-1 gap-5 "
                         > 
-                          <div class="flex flex-col items-start justify-start gap-2">
+                          <div class="flex flex-col items-start justify-start gap-2 sm:gap-1 sm:pl-1 sm:py-2">
                             <div class="relative inline-block">Sparklers</div>
                             <div class="relative text-gray-500 inline-block">
                               $135/ hour
                             </div>
                           </div>
                           <img
-                            class="h-[30px] w-[30px] relative"
+                            class="h-[30px] w-[30px] sm:h-7 sm:w-7 relative"
                             loading="lazy"
                             alt=""
-                            src="add-cta.svg"
+                            src="/public/add-cta.svg"
                           />
                         </div>
                       </div>
                       <div
-                        class="w-[360px] flex flex-col items-center justify-start gap-4 leading-[normal] tracking-[normal] text-left text-base text-gray-700 font-roboto"
+                        class="w-[360px] sm:w-full flex flex-col justify-start gap-4 leading-[normal] tracking-[normal] text-left text-base text-gray-700 font-roboto sm:flex-row items-center sm:items-start sm:gap-3 sm:px-2 sm:py-3 sm:border-b-[0.5px]  sm:border-b-gray-200"
                       >
                         <img
-                          class="self-stretch relative rounded-2xl max-w-full overflow-hidden h-[360px] object-cover"
+                          class="self-stretch relative rounded-2xl sm:rounded-lg  max-w-full overflow-hidden h-[360px] sm:h-[108px] object-cover"
                           alt=""
-                          src="rectangle-9@2x.png"
+                          src="/public/rectangle-9@2x.png"
                         />
                   
                         <div
-                          class="self-stretch flex flex-row items-start justify-between pr-1 gap-5"
+                          class="self-stretch flex flex-row sm:flex-col items-start justify-between pr-1 gap-5 "
                         > 
-                          <div class="flex flex-col items-start justify-start gap-2">
+                          <div class="flex flex-col items-start justify-start gap-2 sm:gap-1 sm:pl-1 sm:py-2">
                             <div class="relative inline-block">Sparklers</div>
                             <div class="relative text-gray-500 inline-block">
                               $135/ hour
                             </div>
                           </div>
                           <img
-                            class="h-[30px] w-[30px] relative"
+                            class="h-[30px] w-[30px] sm:h-7 sm:w-7 relative"
                             loading="lazy"
                             alt=""
-                            src="add-cta.svg"
+                            src="/public/add-cta.svg"
                           />
                         </div>
                       </div>
+
+
+                      
                     </div>
                     <!--services grid ends-->
 
@@ -1212,39 +1294,42 @@
                       class="cursor-pointer border-gray-200 border-[1px] border-solid py-2 px-4 rounded-lg flex items-center justify-center hover:bg-gray-300 hover:border-gray-100 hover:border-[1px] hover:border-solid hover:box-border"
                     >
                       <div
-                        class="relative text-sm font-medium font-roboto text-gray-700 text-left inline-block "
+                        class="relative text-sm sm:text-xs font-medium font-roboto text-gray-700 text-left inline-block "
                       >
                         See all services
                       </div>
                     </button>
-                  </div>
-                </div>
               </div>
+
+
             </div>
+          </div>
         </section>
 
         <section><!--reviews section-->
           <div
-            class="self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[49px] box-border max-w-full text-base mq750:pb-8 mq750:box-border"
+            class=" self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[49px] box-border max-w-full text-base sm:px-4"
           >
             <div
-              class="flex-1 border-gray-200 border-t-[1px] flex flex-col items-start justify-start pt-6 gap-12 max-w-full mq750:gap-6"
+              class="flex-1 border-gray-200 border-t-[1px] flex flex-col items-start justify-start pt-6 gap-12 max-w-full"
             >
+             
+            
               <div
-                class="self-stretch grid flex-row items-center justify-start gap-5 max-w-full grid-cols-[repeat(2,_minmax(540px,_1fr))] mq750:grid-cols-[minmax(270px,_1fr)] mq1050:justify-center mq1050:grid-cols-[repeat(2,_minmax(270px,_468px))]"
+                class="self-stretch grid flex-row items-center justify-start gap-5 max-w-full grid-cols-[repeat(2,_minmax(540px,_1fr))] sm:grid-cols-[repeat(1,_minmax(320px,_1fr))]"
               >
                 <!--insert review card-->
                 <div
-                  class="w-[540px] bg-white max-w-full flex flex-col items-start justify-start gap-6 leading-[normal] tracking-[normal] text-left text-base text-gray-800 font-roboto"
+                  class="w-[540px] sm:w-[340px] bg-white max-w-full flex flex-col items-start justify-start gap-6 leading-[normal] tracking-[normal] text-left text-base  text-gray-800 font-roboto"
                 >
                   <div
-                    class="flex flex-row items-center justify-start  gap-4"
+                    class="flex flex-row items-center justify-start gap-4"
                   >
                     <img
                       class="h-12 w-12 relative rounded-[50%] object-cover min-h-[48px]"
                       loading="lazy"
                       alt=""
-                      src="ellipse-1@2x.png"
+                      src="/public/ellipse-1@2x.png"
                     />
 
                     <div class="flex-1 flex flex-col items-start justify-start gap-1">
@@ -1263,7 +1348,7 @@
                               class="h-3 w-3 relative rounded-12xs-5"
                               loading="lazy"
                               alt=""
-                              src="star.svg"
+                              src="/public/star.svg"
                             />
                           </div>
                           <div class="flex flex-row items-start justify-start w-3 h-3">
@@ -1271,7 +1356,7 @@
                               class="h-3 w-3 relative rounded-12xs-5"
                               loading="lazy"
                               alt=""
-                              src="star.svg"
+                              src="/public/star.svg"
                             />
                           </div>
                           <div class="flex flex-row items-start justify-start w-3 h-3">
@@ -1279,7 +1364,7 @@
                               class="h-3 w-3 relative rounded-12xs-5"
                               loading="lazy"
                               alt=""
-                              src="star.svg"
+                              src="/public/star.svg"
                             />
                           </div>
                           <div class="flex flex-row items-start justify-start w-3 h-3">
@@ -1287,7 +1372,7 @@
                               class="h-3 w-3 relative rounded-12xs-5"
                               loading="lazy"
                               alt=""
-                              src="star.svg"
+                              src="/public/star.svg"
                             />
                           </div>
                           <div class="flex flex-row items-start justify-start w-3 h-3">
@@ -1295,7 +1380,7 @@
                               class="h-3 w-3 relative rounded-12xs-5"
                               loading="lazy"
                               alt=""
-                              src="star.svg"
+                              src="/public/star.svg"
                             />
                           </div>
                         </div>
@@ -1327,7 +1412,7 @@
                       class="h-12 w-12 relative rounded-[50%] object-cover min-h-[48px]"
                       loading="lazy"
                       alt=""
-                      src="ellipse-1@2x.png"
+                      src="/public/ellipse-1@2x.png"
                     />
 
                     <div class="flex-1 flex flex-col items-start justify-start gap-1">
@@ -1346,7 +1431,7 @@
                               class="h-3 w-3 relative rounded-12xs-5"
                               loading="lazy"
                               alt=""
-                              src="star.svg"
+                              src="/public/star.svg"
                             />
                           </div>
                           <div class="flex flex-row items-start justify-start w-3 h-3">
@@ -1354,7 +1439,7 @@
                               class="h-3 w-3 relative rounded-12xs-5"
                               loading="lazy"
                               alt=""
-                              src="star.svg"
+                              src="/public/star.svg"
                             />
                           </div>
                           <div class="flex flex-row items-start justify-start w-3 h-3">
@@ -1362,7 +1447,7 @@
                               class="h-3 w-3 relative rounded-12xs-5"
                               loading="lazy"
                               alt=""
-                              src="star.svg"
+                              src="/public/star.svg"
                             />
                           </div>
                           <div class="flex flex-row items-start justify-start w-3 h-3">
@@ -1370,7 +1455,7 @@
                               class="h-3 w-3 relative rounded-12xs-5"
                               loading="lazy"
                               alt=""
-                              src="star.svg"
+                              src="/public/star.svg"
                             />
                           </div>
                           <div class="flex flex-row items-start justify-start w-3 h-3">
@@ -1378,7 +1463,7 @@
                               class="h-3 w-3 relative rounded-12xs-5"
                               loading="lazy"
                               alt=""
-                              src="star.svg"
+                              src="/public/star.svg"
                             />
                           </div>
                         </div>
@@ -1410,87 +1495,106 @@
           </div>
           
         </section>
+
         <section><!--FAQ section-->
           <div
-            class="self-stretch flex flex-col items-start justify-end gap-9 max-w-full mq750:gap-[18px]"
+            class="self-stretch flex flex-col items-start justify-end gap-9 max-w-full sm:w-full sm:px-6 sm:gap-6 sm:pb-16"
           >
             <p
-              class="relative font-medium text-2xl mq450:text-lg mq450:leading-[26px]"
+              class="relative font-medium text-2xl "
             >
               Frequently Asked Questions
             </p>
             <form
-              class="self-stretch flex flex-row items-start justify-start gap-16 max-w-full mq750:gap-4 mq1050:flex-wrap mq1150:gap-8"
+              class="self-stretch flex flex-row items-start justify-start gap-16 max-w-full sm:flex-col sm:gap-4"
             >
+              
+              <!--accordion section-->
               <div
-                class="flex-1 flex flex-col items-start justify-start min-w-[460px] max-w-full mq750:min-w-full"
+                class="flex-1 flex flex-col items-start justify-start min-w-[460px] sm:min-w-[240px] max-w-full sm:max-w-full "
               >
                 <div
-                  class="self-stretch flex flex-col items-start justify-start max-w-full"
-                >
-                <div
-                  class="self-stretch border-gray-200 border-b-[1px] box-border flex flex-col items-start justify-start pt-4 px-0 pb-3.5 max-w-[720px]"
+                  class="flex-1 flex flex-col items-start justify-start min-w-[460px] max-w-full sm:w-full sm:min-w-[240px]"
                 >
                   <div
-                    class="self-stretch bg-white flex flex-row items-start justify-end py-3x gap-4 max-w-full mq750:flex-wrap"
+                    class="self-stretch flex flex-col items-start justify-start max-w-full"
+                  >
+                  <div
+                    class="self-stretch border-gray-200 border-b-[1px] box-border flex flex-col items-start justify-start pt-4 px-0 pb-3.5 max-w-[720px]"
                   >
                     <div
-                      class="flex-1 flex flex-col items-start justify-start gap-1 min-w-[434px] max-w-full mq750:min-w-full"
+                      class="self-stretch bg-white flex flex-row items-start justify-end py-3 gap-4 max-w-full "
                     >
                       <div
-                        class="self-stretch relative text-base tracking-[-0.1px] leading-[22px] font-roboto text-gray-800 text-left"
+                        class="flex-1 flex flex-col items-start justify-start gap-1 min-w-[434px] max-w-full sm:min-w-[240px] sm:w-full "
                       >
-                        What is AisleGo?
+                        <div
+                          class="self-stretch relative text-base tracking-[-0.1px] leading-[22px] font-roboto text-gray-800 text-left"
+                        >
+                          What is AisleGo?
+                        </div>
+                        <div
+                          class="flex relative text-base tracking-[-0.1px] leading-6 font-roboto font-normal text-gray-500 text-left" 
+                        > <!--toggle-->
+                          lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lectus a urna venenatis feugiat eget ut
+                          urna. Sed iaculis mollis tellus sed pellentesque.
+                        </div>
                       </div>
-                      <div
-                        class="flex relative text-base tracking-[-0.1px] leading-6 font-roboto font-normal text-gray-500 text-left" 
-                      > <!--toggle-->
-                        lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lectus a urna venenatis feugiat eget ut
-                        urna. Sed iaculis mollis tellus sed pellentesque.
-                      </div>
+                      <img
+                        class="h-6 w-6 relative"
+                        alt=""
+                        src="/public/action.svg"
+                      />
                     </div>
-                    <img
-                      class="h-6 w-6 relative"
-                      alt=""
-                      src="action.svg"
-                    />
+                  </div>    
+                      
+                    
                   </div>
-                </div>    
+                </div>
                 <div
-                  class="self-stretch border-gray-200 border-b-[1px] box-border flex flex-col items-start justify-start pt-4 px-0 pb-3.5 max-w-[720px]"
+                  class="flex-1 flex flex-col items-start justify-start min-w-[460px] max-w-full sm:w-full sm:min-w-[240px]"
                 >
                   <div
-                    class="self-stretch bg-white flex flex-row items-start justify-end py-3x gap-4 max-w-full mq750:flex-wrap"
+                    class="self-stretch flex flex-col items-start justify-start max-w-full"
+                  >
+                  <div
+                    class="self-stretch border-gray-200 border-b-[1px] box-border flex flex-col items-start justify-start pt-4 px-0 pb-3.5 max-w-[720px]"
                   >
                     <div
-                      class="flex-1 flex flex-col items-start justify-start gap-1 min-w-[434px] max-w-full mq750:min-w-full"
+                      class="self-stretch bg-white flex flex-row items-start justify-end py-3 gap-4 max-w-full "
                     >
                       <div
-                        class="self-stretch relative text-base tracking-[-0.1px] leading-[22px] font-roboto text-gray-800 text-left"
+                        class="flex-1 flex flex-col items-start justify-start gap-1 min-w-[434px] max-w-full sm:min-w-[240px] sm:w-full "
                       >
-                        Do you have an app?
+                        <div
+                          class="self-stretch relative text-base tracking-[-0.1px] leading-[22px] font-roboto text-gray-800 text-left"
+                        >
+                          What is AisleGo?
+                        </div>
+                        <div
+                          class="flex relative text-base tracking-[-0.1px] leading-6 font-roboto font-normal text-gray-500 text-left" 
+                        > <!--toggle-->
+                          lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lectus a urna venenatis feugiat eget ut
+                          urna. Sed iaculis mollis tellus sed pellentesque.
+                        </div>
                       </div>
-                      <div
-                        class="flex relative text-base tracking-[-0.1px] leading-6 font-roboto font-normal text-gray-500 text-left" 
-                      > <!--toggle-->
-                        lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu lectus a urna venenatis feugiat eget ut
-                        urna. Sed iaculis mollis tellus sed pellentesque.
-                      </div>
+                      <img
+                        class="h-6 w-6 relative"
+                        alt=""
+                        src="/public/action.svg"
+                      />
                     </div>
-                    <img
-                      class="h-6 w-6 relative"
-                      alt=""
-                      src="action.svg"
-                    />
+                  </div>    
+                      
+                    
                   </div>
-                </div>    
-                  
                 </div>
               </div>
 
-              <section><!--Message Vendor--></section>
+
+              <!--Message Vendor-->
               <div
-                class="w-[351px] flex flex-col items-start justify-start gap-9 min-w-[351px] max-w-full mq450:gap-[18px] mq450:min-w-full mq1050:flex-1"
+                class="self-stretch flex flex-col items-start justify-start gap-9 min-w-[351px] max-w-full sm:min-w-[280px] "
               >
                 <div
                   class="self-stretch flex flex-col items-start justify-start"
@@ -1501,13 +1605,14 @@
                     Cant find what you're looking for?
                   </div>
                   <h3
-                    class="relative text-xl font-normal font-roboto text-gray-800 text-left mq450:text-base mq450:leading-[22px]"
+                    class="relative text-xl font-normal font-roboto text-gray-800 text-left "
                   >
                     Reach out to the vendor directly!
                   </h3>
                 </div>
+                
                 <button
-                  class="cursor-pointer py-3 px-9 bg-gray-800 rounded-lg flex flex-row items-center justify-center whitespace-nowrap hover:bg-gray-400"
+                  class="relative self-stretch cursor-pointer py-3 px-9 bg-gray-800 rounded-lg flex flex-row items-center justify-center whitespace-nowrap hover:bg-gray-400"
                 >
                   <div
                     class="relative text-base font-medium font-roboto text-white text-left inline-block "
@@ -1520,7 +1625,31 @@
           </div>
         </section>
       </main>
+      <!--floating button-->
+      <div class="md:hidden fixed z-50 w-full h-16 max-w-full -translate-x-1/2 bg-white border border-gray-100  bottom-0 left-1/2 px-4 py-3">
+        <div class=" h-full max-w-lg flex mx-auto justify-between items-center ">
+            <div class="text-base font-medium text-gray-700 flex flex-col items-start justify-start ">
+                <p>$7,300</p>
+                <div class="self-stretch text-sm text-gray-500 flex flex-row gap-1">
+                    <p>2 Aug</p>
+                    <p>75 Guests</p>
+                </div>
+            </div>
+            <button
+            class=" relative cursor-pointer px-4 sm:w-7/12 self-stretch rounded-[20px] bg-mariner-700 flex flex-col items-center justify-center h-[36px]"
+                >
+                    <p
+                    class="relative text-base tracking-[0.1px] leading-[20px] font-roboto font-normal text-white text-center"
+                    >
+                    Book
+                    </p>           
+            </button>
+            
+        </div>
+      </div>
       <footer><!--use the current footer--></footer>
-    </div>
+      
+    
+    
   </body>
 </html>
