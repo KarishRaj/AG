@@ -1,11 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/*.{html,js}"],
+  content: ["./*.{html,js}"],
   theme: {
     screens:{
         
-        'sm': { 'max': '768px',
-        }, // Define your desired breakpoint here
+        'sm': { 'max': '768px',}, // Define your desired breakpoint here
         'md': { 'min': '769px'},
         'lg': { 'min': '1024px'},
         'mq1125': {raw: "screen and (max-width: 1125px)",},
